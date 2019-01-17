@@ -91,9 +91,9 @@ recipes.addShaped("solar_tower_tin", <magneticraft:solar_tower>,
  
 recipes.remove(<magneticraft:multiblock_parts:1>);
 recipes.addShaped("gear_multiblock_part_electrical_iron", <magneticraft:multiblock_parts:1>*2,
-    [[plateIron, <ore:blockLapis>, inkSac],
+    [[plateIron, <ore:blockLapis>, plateIron],
     [<ore:blockLapis>, <ore:blockQuartz>, <ore:blockLapis>],
-    [inkSac, <ore:blockLapis>, inkSac]]);
+    [plateIron, <ore:blockLapis>, plateIron]]);
  
 recipes.remove(<magneticraft:crafting:2>);
 recipes.addShaped("motor_copper", <magneticraft:crafting:2>*2,
@@ -112,12 +112,6 @@ recipes.addShaped("battery_low_copper", batteryLow,
     [[<ore:nuggetIron>, <ore:nuggetCopper>, <ore:nuggetIron>],
     [copperPlate, <ore:dustSulfur>, copperPlate],
     [copperPlate, <ore:dustSulfur>, copperPlate]]);
- 
-recipes.remove(<magneticraft:multiblock_parts:1>);
-recipes.addShaped("multiblock_part_electrical_iron", <magneticraft:multiblock_parts:1>*2,
-    [[plateIron, <ore:blockLapis>, plateIron],
-    [<ore:blockLapis>, <ore:blockQuartz>, <ore:blockLapis>],
-    [plateIron, <ore:blockLapis>, plateIron]]);
     
 #Script by DolphinBlaster
 //Removes lead, aluminum and silver dust as biproducts
